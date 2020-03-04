@@ -17,6 +17,7 @@ vagrant/
 
 # Ansible inventory
 inventory/*
+!inventory/ssl
 !inventory/local
 !inventory/sample
 inventory/*/artifacts/
