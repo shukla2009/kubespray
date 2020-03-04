@@ -17,7 +17,7 @@ bin_dir: /usr/local/bin
 
 
 ## External LB example config
-apiserver_loadbalancer_domain_name: "mx-elb-849745198.ap-south-1.elb.amazonaws.com,k8s.mach-x.com"
+apiserver_loadbalancer_domain_name: "*.mach-x.com"
 # loadbalancer_apiserver:
 #   address: 1.2.3.4
 #   port: 1234
